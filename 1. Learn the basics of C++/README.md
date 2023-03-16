@@ -106,7 +106,7 @@ Note that each case should end with a break statement to prevent execution from 
 ## 3. Loops:
 Loops are used to repeat a block of code a certain number of times, or until a certain condition is met. There are three main types of loops in C++: while loops, for loops, and do-while loops.
 
-### While Loops:
+### a. While Loops:
 A while loop is used to repeat a block of code while a certain condition is true. Here's the basic syntax of a while loop:
 
 ```c++
@@ -115,7 +115,7 @@ while (condition) {
 }
 ```
 
-### For Loops:
+### b. For Loops:
 A for loop is used to repeat a block of code a certain number of times. Here's the basic syntax of a for loop:
 
 ```c++
@@ -125,7 +125,7 @@ for (initialization; condition; update) {
 ```
 The initialization step is used to set the initial value of the loop variable, the condition is used to determine when to exit the loop, and the update step is used to modify the loop variable after each iteration.
 
-### Do-While Loops:
+### c. Do-While Loops:
 A do-while loop is used to repeat a block of code at least once, and then continue repeating it while a certain condition is true. Here's the basic syntax of a do-while loop:
 
 ```c++
