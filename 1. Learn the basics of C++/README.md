@@ -165,6 +165,20 @@ for (int i = 0; i < 10; i++) {
 
 In this example, when the condition inside the loop block is true, the program will execute the first set of statements, and then check the value of someCondition. If someCondition is true, the program will skip over the remaining statements for the current iteration, and move on to the next one.
 
+### 3. goto:
+The goto statement is used to transfer control to a labeled statement within the same function. The labeled statement must be defined within the same block, or within a block nested inside the current block.
+
+```cpp
+int i = 0;
+label1:
+i++;
+if (i < 10) {
+    goto label1;
+}
+```
+In this example, the program uses a goto statement to jump to the label1 statement whenever the condition i < 10 is true. This creates a loop that will run 10 times.
+
+> Note that the use of goto statements is generally discouraged in modern programming, as it can make code difficult to read and understand. In most cases, the break and continue statements can be used instead to achieve the desired control flow.
 
 
 
